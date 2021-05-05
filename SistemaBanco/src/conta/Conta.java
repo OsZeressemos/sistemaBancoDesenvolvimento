@@ -13,6 +13,7 @@ public class Conta {
 	public int numero;
 	public int agencia;
 	public String titular;
+	///
 	public int cpf; // tipo errado...char(11)
 	public int senha;
 	public double saldo;
@@ -49,7 +50,7 @@ public class Conta {
 		if (valor > 0.1) {
 			this.saldo += valor;
 		} else {
-			throw new DepositoIndevido("Valor mínimo para depósito: R$ 10,00");
+			throw new DepositoIndevido("Valor mï¿½nimo para depï¿½sito: R$ 10,00");
 		}
 	}
 
@@ -67,7 +68,7 @@ public class Conta {
 	
 	
 	public void consultaSaldo() {
-        System.out.printf("Seu saldo é: "+"R$ %.2f%n"+this.saldo);
+        System.out.printf("Seu saldo ï¿½: "+"R$ %.2f%n"+this.saldo);
     }
 	
 	// Getters and setters
@@ -81,7 +82,7 @@ public class Conta {
     }
 
     public void setCpfTitular(int cpf) {
-        this.cpf = cpf; // verificar sobre atualização de cadastro.
+        this.cpf = cpf; // verificar sobre atualizaï¿½ï¿½o de cadastro.
     }
 
     public int getAgencia() {
