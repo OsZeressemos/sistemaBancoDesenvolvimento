@@ -1,2 +1,3 @@
-# sistemaBanco
-🏦💸💰Projeto Final da disciplina de Programação Orientada a Objeto (Java).
+<p align="center">
+  <img align="center" height="400px" src="sistemaBancoJavaSwing/assets/dLzNb.gif"> 
+</p>
